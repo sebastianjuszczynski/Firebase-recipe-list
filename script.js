@@ -6,7 +6,7 @@ const addRecipe = (recipe) => {
             <p>${recipe.title}</p>
         </li>
     `;
-    console.log(html);
+    list.innerHTML += html;
 }
 
 
